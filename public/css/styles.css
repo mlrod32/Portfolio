@@ -1,0 +1,62 @@
+body{
+  background-color: blue;
+}
+
+.links{
+  text-align: center;
+  background-color: purple;
+}
+
+.titlehead{
+  background-color: blue;
+}
+
+.heads{
+  color: black;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+#box{
+  width: 900px;
+  padding: auto;
+  margin: 20px auto;
+  border-style: solid;
+  background-color: lightblue;
+}
+
+#post{
+  width: 500px;
+  margin: 10px 225px;
+}
+
+h1{
+  text-align: center;
+  /*margin: 20px auto;*/
+}
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.body{
+  text-align: center;
+
+}
+
+.format2{
+  text-align: center;
+}
+.format3{
+  text-align: center;
+}
+
+.format{
+  width: 500px;
+  padding: 10px 20px;
+
+  margin: 20px auto;
+  border-style: solid;
+  background-color: lightblue;
+}

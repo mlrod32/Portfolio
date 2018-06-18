@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Blog Form</title>
+  </head>
+    <meta charset="utf-8">
+  <body>
+
+    <div class ="heading">
+    <%- include('partials/header.js') %>
+    </div>
+    <div class = "format">
+      <form id = "messageform" action = "submit" method = "POST">
+        <div = class = "format2">
+          Title: <br>
+          <input type = "text" name = "title" id = "title">
+          <br>
+        </div>
+
+        <div class = "format3">
+
+          Message: <br>
+          <textarea id = "message" name = "blog"  rows = "6" cols = "50" form = "messageform"></textarea> <br>
+          <input type = "submit" class = "submit" value = "Post">
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src= "js/jquery-3.3.1.js"> </script>
+		<script type="text/javascript" src= "js/main.js"></script>
+  </body>
+</html>

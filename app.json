@@ -1,0 +1,6 @@
+{
+  "name": "MLROD Portfolio",
+  "description": "A portfoliofor myself, with blog post",
+  "repository": "https://github.com/mlrod32/Portfolia.git",
+  "keywords":["node", "express", "static"]
+}
