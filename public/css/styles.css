@@ -1,62 +1,110 @@
-body{
-  background-color: blue;
-}
 
-.links{
+
+
+/* .head{
+  background-image: url('/images/nyx.png');
+  background-position: center;
+  padding: 20px 20px;
+  background-repeat: no-repeat;
+
+} */
+
+/* .links{
   text-align: center;
   background-color: purple;
+} */
+
+h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+img{
+  text-align: center;
+  margin: auto;
 }
 
-.titlehead{
-  background-color: blue;
+.container{
+
+  background-image: : url('/images/nyx.png');
+
 }
 
-.heads{
-  color: black;
-  padding: 0px 10px;
-  text-decoration: none;
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.nav-item{
+    float: left;
+    /* border-right: 1px solid #bbb; */
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.postbox{
+  width:500px;
+  text-align: center;
+  padding: auto;
+  margin: 50px 20px;
+  border-style: solid;
+  float :left;
+}
+
+.form-group{
+  width:500px;
+  text-align: center;
+  padding: auto;
+  margin: 100px auto;
+  border-style: solid;
+}
+
+.title{
+  text-decoration: underline;
+}
+
+img{
+  padding: 10px 20px;
+  display:block;
+  text-align: center;
+}
+.even{
+	width: 200px;
+	border-style: solid;
+	/*display: inline;*/
+	margin: 10px 20px;
+	float:left;
+	color: black;
+	background-color: white;
+}
+
+#bod{
+	width: 900px;
+	border-style: solid;
+	margin: 20px auto;
+}
+
+#eve{
+	float: left;
+	display: inline;
+	width: 500px;
+	margin: 10px 20px;
 }
 
 #box{
-  width: 900px;
+  float: left;
+  width:500px;
+  text-align: center;
   padding: auto;
-  margin: 20px auto;
+  margin: 10px 10px;
   border-style: solid;
-  background-color: lightblue;
-}
-
-#post{
-  width: 500px;
-  margin: 10px 225px;
 }
 
 h1{
   text-align: center;
   /*margin: 20px auto;*/
-}
-
-h3{
-  text-align: center;
-  text-decoration: underline;
-}
-
-.body{
-  text-align: center;
-
-}
-
-.format2{
-  text-align: center;
-}
-.format3{
-  text-align: center;
-}
-
-.format{
-  width: 500px;
-  padding: 10px 20px;
-
-  margin: 20px auto;
-  border-style: solid;
-  background-color: lightblue;
 }

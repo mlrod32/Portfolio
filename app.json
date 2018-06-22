@@ -1,6 +1,8 @@
 {
-  "name": "MLROD Portfolio",
+  "name": "Start on Heroku: Node.js",
   "description": "A portfoliofor myself, with blog post",
-  "repository": "https://github.com/mlrod32/Portfolia.git",
-  "keywords":["node", "express", "static"]
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords":["node", "express", "static"],
+  "image": "heroku/nodejs"
 }

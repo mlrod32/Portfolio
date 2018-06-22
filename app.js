@@ -11,14 +11,21 @@ app.use(parser.urlencoded({extended: true}));
 app.use(parser.text());
 app.set('view engine', 'ejs');
 
+// var Sequelize = require('sequelize');
+// var sequelize = new Sequelize('postgres://postgres:bloodwraps32@localhost/postgres');
+
+
 const {Pool,Client} = require('pg');
 
+
 const pool = new Pool({
-  user: 'postgres',
-  host:'localhost',
-  database: 'bulletinboard',
-  password: 'bloodwraps32',
-  port: 5432,
+  // user: 'postgres',
+  // host:'localhost',
+  // database: 'bulletinboard',
+  // password: 'bloodwraps32',
+  // port: 5432,
+
+  connectionString : 'postgres://postgres:bloodwraps32@localhost/bulletinboard'
 });
 
 var blog;
@@ -34,7 +41,16 @@ app.get('/blog', function(req,res){
   res.render('blog',{blog:blog});
 });
 
+app.get('/steam',function(req,res){
+  res.render('steam');
+});
+
+
 app.get('/', function(req,res){
+  res.render('home');
+});
+
+app.get('/portfolio', function(req,res){
   res.render('profile');
 });
 
@@ -45,5 +61,5 @@ app.post('/submit', function(req, res){
   res.redirect('blog');
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
 console.log("Lisening on port 8080");
